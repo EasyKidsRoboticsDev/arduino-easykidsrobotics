@@ -10,7 +10,7 @@
 #include "EasyKids_PID.h"
 #include "EasyKids_Gamepad.h"
 
-void EasyKids_Setup(){
+void EasyKids3in1_Setup(){
     Serial.begin(115200);
     display.begin();
     displayClear();
@@ -33,7 +33,7 @@ void EasyKids_Setup(){
     pwm.setPWM(6, 0, 0);
     pwm.setPWM(7, 0, 0);
 }
-void EasyKidsLineFollower_Setup(){
+void EasyKidsRobot_Setup(){
     Serial.begin(115200);
     display.begin();
     displayClear();
