@@ -12,61 +12,59 @@
 การให้เยาวชนได้เจอโจทย์และแก้ปัญหาบ่อย ๆ จะช่วยให้เกิดการพัฒนาตัวเอง สร้างความมั่นใจ ไม่กลัว และไม่หนีปัญหา เยาวชนจะสามารถแก้ปัญหาได้ รู้ที่มาที่ไป สาเหตุของปัญหา และคิดหาวิธีแก้ หากวิธีนี้ไม่สำเร็จ 
 ก็เปลี่ยนวิธีใหม่ทักษะนี้สามารถประยุกต์ใช้กับชีวิตจริงของพวกเขาได้ ทำให้รู้สึกว่าทุกปัญหามีทางออก เป็นการสร้างพื้นฐานการคิดและจิตใจให้เข้มแข็ง มีความพยายามมากขึ้น ให้พวกเขาพร้อมต่อยอดไปได้ในทุก ๆ เรื่อง ไม่ว่าการเข้ามหาวิทยาลัย การทำงานในอนาคต หรือทำอะไรก็ตามในชีวิตของพวกเขา
 
-![image](https://github.com/EasykidsRobotics/EasyKids3in1/assets/66917385/ea4982af-c097-402c-a2f1-4fe42d3f4692)
-![image](https://github.com/EasykidsRobotics/EasyKids3in1/assets/66917385/4caaa5ae-43b1-4eee-9088-f165cef0792f)
+![IMG_2068](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/8130b79f-7d6e-41a5-a3ad-62e5738a8081)
+
+![242159788-4caaa5ae-43b1-4eee-9088-f165cef0792f](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/9744b2ee-056d-438c-bc0d-ca359eac3376)
+
 
 ## **How to Install**
 
-1. เพิ่มบอร์ด ใน Arduino IDE 
-1. เพิ่ม Library 3in1EasyKidsRobot ใน Arduino IDE
-1. เลือกบอร์ด 
-1. เลือก Library ลงในโค้ด
+1. เพิ่มบอร์ด EasyKids3in1 ใน Arduino IDE 
+1. เลือก Library EasyKids3in1 ใน Arduino IDE
 
-## **การเพิ่มบอร์ด 3in1EasyKids(ESP32) ใน Arduino IDE**
-(Windows) เลือกที่ File >>> preferences 
+## **การเพิ่มบอร์ด EasyKids3in1 ใน Arduino IDE**
+(Windows OS) เลือกที่ File >>> preferences 
 
-(Mac) เลือกที่ Arduino IDE >>> Settings... 
+(Mac OS) เลือกที่ Arduino IDE >>> Settings... 
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/ab8fcb36-e563-4370-bf43-fc291f1e1450")
+![Screenshot 2023-09-15 111051](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/dd8353f5-ace5-41e8-b70e-48a8405cdbff)
 
-ในช่อง Additional boards managers URLS: จะนำ Link ข้อมูลบอร์ดลงไปใส่
+Package บอร์ด EasyKids3in1 
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/7d5f8ea0-6864-40d6-b10d-e8a0b444fc1b")
+* Copy ลิ้งนี้ >>> : https://github.com/EasyKidsRoboticsDev/arduino-easykidsrobotics/releases/download/4.3.2/package_easykidsrobotics_index.json
 
-กรอกข้อมูลของบอร์ด 2 Link ได้แก่
+![Screenshot 2023-09-15 111235](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/3b153bd6-6cb8-49cb-9bb9-1c09fb380ef0)
 
-* Official ESP32 package: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+ใส่ลงในช่อง Additional boards managers URLS แล้วกด "OK"
 
-* Bluepad32 package: https://raw.githubusercontent.com/ricardoquesada/esp32-arduino-lib-builder/master/bluepad32_files/package_esp32_bluepad32_index.json
+![Capture1](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/4b57629c-808c-43b6-97e4-3ff5ad9d3d06)
 
 จากนั้นกด "OK"
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/19663f57-c77d-4808-b728-1fd060c99d7a")
+![Screenshot 2023-09-15 111501](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/65cb4395-d57a-4765-a880-a76cd3386108)
 
-จากนั้นเลือกที่ BOARDS MANAGER พิมพ์คำว่า ESP32 ในช่องค้นหา จากนั้นให้กดคลิ๊ก "INSTALL" ทั้ง 2 อัน
+จากนั้นเลือกไปที่ BOARDS MANAGER พิมพ์คำว่า EasyKidsRobotics ในช่องค้นหา และให้กดคลิ๊ก "INSTALL" เพื่อทำการติดตั้งและรอจนกว่าจะติดตั้งเสร็จสมบูรณ์
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/8bac720b-8660-484b-8377-2f48a72cdeb9")
+![Capture3](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/c0286d9b-a1b0-4b04-ac25-38bc41f78094)
 
-หลังจากที่ทำการโหลดและติดตั้งเรียบร้อยแล้ว ให้เลือกไปที่ Tools >>> Board: >>> esp32_bluepad32 >>> คลิ๊กที่ ESP32 Dev Module เป็นการเสร็จสิ้นการติดตั้งบอร์ด
+หลังจากที่ทำการโหลดและติดตั้งบอร์ด EasyKids3in1 เรียบร้อยแล้ว ต่อไปจะเป็นการเลือกบอร์ด โดยให้คลิ๊กไปที่ Tools >>> Board: >>> EasyKidsRobotics >>> และเลือกที่ EasyKids3in1 
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/5eb60fd2-dc1e-4d7f-8fca-49f371e46e3a")
+![Screenshot 2023-09-16 023709](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/bc15603c-45dd-437b-84aa-6022edcc545e)
 
-## **การเพิ่ม Library 3in1EasyKidsRobot ใน Arduino IDE**
-ขั้นตอนแรกให้ Download Library EasyKids3in1Robot จาก https://github.com/EasyKidsRobotics/EasyKids3in1Robot เก็บไว้ในเครื่องก่อน
-จากนั้นให้เราเลือกที่ Sketch >>> Include Library >>> Add .ZIP Library...
+## **การเพิ่ม Library EasyKids3in1 ใน Arduino IDE**
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/d804a5c0-0f5b-4614-be63-1da073d1585e")
+เลือกไปที่ Sketch >>> Include Library >>> แล้วเลือก EasyKids3in1
+![Screenshot 2023-09-15 112246](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/9e650eb1-cba6-461f-a7ce-8e6ce894b77d)
 
-จากนั้นให้เลือกไฟล์ .ZIP ที่เรา Download มา หรืออีกหนึ่งวิธีสามารถแตกไฟล์แล้วนำไปวางใน Folder Documents >>> Arduino >>> libraries ได้เช่นกัน
+ทำการทดสอบด้วยการกด Verify หากไม่มี Error หรือ ตัวอักษรสีแดงใดๆ แสดงว่าการติดตั้งบอร์ด EasyKids3in1 และไบลารี่เสร็จสมบูรณ์ 100 % 
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/2780c48d-3811-43ec-8f5a-37d8274bfffa")
+![Screenshot 2023-09-15 143629](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/4472cc9e-85e5-43be-a17e-75ba8e2c6b62)
 
-จากนั้นให้เลือกไปที่ Sketch >>> Include Library >>> แล้วเลือก EasyKids3in1Robot
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/eb5c7506-8281-4f8e-903e-5f3c166ed186")
 
-## **โค้ดตัวอย่าง**
-ให้เลือกไปที่ File >>> Examples >>> EasyKids3in1Robot 
+## **ทดสอบโค้ดตัวอย่าง**
+ให้เลือกไปที่ File >>> Examples >>> EasyKids3in1 
 
-![image](https://github.com/EasyKidsRobotics/EasyKids3in1Robot/assets/66917385/7199c15b-9255-4c65-83eb-bba9182038dc")
+โดยโค้ดตัวอย่างจะมีการใช้งานต่างๆ ของหุ่นยนต์ เช่น Input Output Motor LCD RGB เป็นต้น  
 
-โดยโค้ดตัวอย่างจะมีการใช้งานต่างๆ ของหุ่นยนต์ เช่น Input Output Motor LCD RGB เป็นต้น 
+![Screenshot 2023-09-15 112332](https://github.com/EasyKidsRoboticsDev/EasyKids3in1Robot/assets/66917385/b0d5a1a2-693d-48fb-af5b-60ba2378d3e7)
+
