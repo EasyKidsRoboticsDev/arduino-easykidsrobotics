@@ -1,5 +1,5 @@
 name=EasyKidsRobotics
-version=3.8.3
+version=4.3.2
 
 tools.xtensa-esp32-elf-gcc.path={runtime.tools.xtensa-esp32-elf-gcc.path}
 tools.xtensa-esp32s2-elf-gcc.path={runtime.tools.xtensa-esp32s2-elf-gcc.path}
