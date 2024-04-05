@@ -209,7 +209,7 @@ easykids_esp32.menu.EraseFlash.all.upload.erase_cmd=-e
 
 ##############################################################
 
-3in1easykids.name=EasyKids3in1_Bluepad
+3in1easykids.name=EasyKids3in1_Gamepad
 
 3in1easykids.bootloader.tool=esptool_py
 3in1easykids.bootloader.tool.default=esptool_py
@@ -231,7 +231,7 @@ easykids_esp32.menu.EraseFlash.all.upload.erase_cmd=-e
 3in1easykids.build.target=esp32
 3in1easykids.build.mcu=esp32
 3in1easykids.build.core=esp32
-3in1easykids.build.variant=3in1easykids_Bluepad
+3in1easykids.build.variant=3in1easykids_Gamepad
 3in1easykids.build.board=ESP32_DEV
 
 3in1easykids.build.f_cpu=240000000L
